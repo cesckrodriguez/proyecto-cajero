@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    padding: 0 50px;
+}
+
+.container{
+    background-color: aqua;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 15px;
+    padding: 25px ;
+
+}
+
+.registro{  
+    padding: 5%;
+    border: 3px solid rgb(208, 164, 164);
+    height: 1fr;
+    display: grid;
+    grid-template-rows:1fr 30% 1fr ;
+    grid-gap: 50px;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(28, 19, 19);
+    background-image: url(principal.jpg);
+    object-fit: cover;
+    
+}
+.titulo{
+    //border: 3px solid rgb(28, 19, 19);
+}
+h1{
+    border-bottom: 3px solid rgb(28, 19, 19) ;
+}
+h5{
+    margin-left: 45px;
+}
+
+.formulario{
+    //border: 3px solid rgb(28, 19, 19);
+    display: flex;
+    flex-direction: column;
+    grid-gap: 25px 0;
+    justify-content: space-around;
+}
+
+
+
+.regUsuario{
+    margin: auto;
+}
+
+/*
+.container{
+    width: 80%;
+    height: 100vh;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    border: 3px solid rgb(208, 164, 164);
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.registro{
+    color: rgb(28, 52, 18);
+}
+
+.imagen{
+    width: 63%;
+    height: 100%;
+    background-color: blue;
+    object-fit: cover;
+}
