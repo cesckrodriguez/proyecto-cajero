@@ -46,11 +46,20 @@ a{
     margin: 0 20px;
     text-decoration: none;
     color: #fff;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 25px;
+}
+
+a:hover{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 25px;
+    box-shadow:20px 20px 50px 20px rgb(30, 207, 30);
 }
 
 
 .titulo{ 
-    //border: 3px solid rgb(28, 19, 19);
     color: #fff;
 }
 
@@ -66,12 +75,31 @@ h5{
     grid-template-columns: 1fr 8fr;
 }
 
+#formulario-usuario, #formulario-contraseña, #formulario-ingresar {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 25px;
+}
+
+#formulario-usuario::placeholder, #formulario-contraseña::placeholder, #formulario-ingresar::placeholder {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
 #formulario-usuario:hover, #formulario-contraseña:hover, #formulario-ingresar:hover {
     background-color: rgb(45, 221, 227);
     outline: none;
     border: none;
+    opacity: .9;
+    box-shadow:20px 20px 50px 10px pink;
+    color: black;
 }
-
 
 
 i{
@@ -95,8 +123,17 @@ i{
 
 .regUsuario{
     margin: auto;
-    
 }
+
+.regUsuario a{
+    color: #fff;
+    box-shadow:20px 20px 50px 10px rgb(206, 192, 255);
+    background-color: transparent;
+}
+
+
+
+
 
 
 /*
@@ -125,4 +162,3 @@ i{
 }
 
 */
-fdfd
