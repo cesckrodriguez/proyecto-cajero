@@ -79,26 +79,26 @@ h5{
     background-color: transparent;
     outline: none;
     border: none;
-    color: #fff;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     border-radius: 25px;
+    color: #fff;
 }
 
-#formulario-usuario::placeholder, #formulario-contraseña::placeholder, #formulario-ingresar::placeholder {
-    background-color: transparent;
+
+#formulario-usuario::placeholder, #formulario-contraseña::placeholder,#formulario-ingresar::placeholder {
     outline: none;
     border: none;
     color: #fff;
 }
 
 #formulario-usuario:hover, #formulario-contraseña:hover, #formulario-ingresar:hover {
+    color: black;
     background-color: rgb(45, 221, 227);
-    outline: none;
-    border: none;
+        outline: none;
+        border: none;
     opacity: .9;
     box-shadow:20px 20px 50px 10px pink;
-    color: black;
 }
 
 
@@ -122,6 +122,7 @@ i{
 
 
 .regUsuario{
+    background-color: transparent;
     margin: auto;
 }
 
@@ -130,6 +131,13 @@ i{
     box-shadow:20px 20px 50px 10px rgb(206, 192, 255);
     background-color: transparent;
 }
+
+.regUsuario a:focus{
+    color: white;
+    box-shadow:20px 20px 50px 10px rgb(35, 182, 22);
+    background-color: transparent;
+}
+
 
 
 
